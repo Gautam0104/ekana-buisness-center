@@ -52,12 +52,12 @@ export default function EnquiryFormModal({ closeModal }) {
 
   return (
     <div className="w-full mx-auto py-2 px-4 border border-primary rounded-md shadow-sm">
-      <h2 className="text-2xl font-bold text-green-800 mb-4">ENQUIRE NOW</h2>
+      <h2 className="text-2xl font-bold text-primary mb-4">ENQUIRE NOW</h2>
 
       <form onSubmit={formik.handleSubmit}>
         <div className="flex flex-col md:flex-row gap-6">
           <div className="bg-[#f4f4f4] rounded-r-3xl p-4 sm:h-52 w-full md:w-[40%]">
-            <div className="bg-green-800 text-white text-center py-1 rounded-md font-normal text-sm mb-4">
+            <div className="bg-primary text-white text-center py-1 rounded-md font-normal text-sm mb-4">
               We Assure You
             </div>
             {[
@@ -160,11 +160,11 @@ export default function EnquiryFormModal({ closeModal }) {
 
       <div className="mt-8 mb-4 hidden  md:block border-2 borderRadius border-primary text-center">
         <div className="mb-3">
-          <button className="bg-green-800 text-white px-6 py-2 rounded-b-xl text-sm font-medium hover:bg-primary">
+          <button className="bg-primary text-white px-6 py-2 rounded-b-xl text-sm font-medium hover:bg-primary">
             Get Information On Latest Updtaes
           </button>
         </div>
-        <div className="flex justify-between max-w-md mx-auto py-4 flex-wrap gap-6 text-green-800 text-sm font-medium">
+        <div className="flex justify-between max-w-md mx-auto py-4 flex-wrap gap-6 text-primary text-sm font-medium">
           {["Available Units", "Payment Plan", "Floor Plans"].map((text, i) => (
             <div className="flex items-center gap-2" key={i}>
               <span className="w-4 h-4 text-current">

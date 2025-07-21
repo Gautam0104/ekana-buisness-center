@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div
         className="relative w-full h-[40vh] lg:h-[80vh] bg-cover bg-center flex items-center justify-start"
         style={{
-          backgroundImage: "url('/Eldeco-Skywalk-Banner.jpg')",
+          backgroundImage: "url('/ebc/hero/Banner.jpg')",
         }}
       >
         <div className="absolute font-Montserrat top-0 right-0 py-4 px-4 md:px-6 flex flex-row items-center gap-4 bg-white/10 backdrop-blur-md rounded-bl-lg border border-white/20">
@@ -59,13 +59,10 @@ const HeroSection = () => {
             </div>
             <div className="px-6 py-4">
               <h2 className="text-2xl font-bold text-gray-800 mb-1 tracking-tight">
-                ELDECO SKYWALK
+                EKANA BUISNESS CENTER
               </h2>
               <p className="text-md font-semibold text-gray-700 mt-1">
-                At Eldeco City, IIM ROAD, LUCKNOW
-              </p>
-              <p className="text-sm text-gray-700 mt-1">
-                A 133 Acres Integrated Township
+                Gomti Nagar Extension, Lucknow
               </p>
             </div>
             <div className="bg-primary/90 text-white text-xs py-3 w-full mb-4 leading-6 font-medium tracking-wide">
@@ -80,7 +77,7 @@ const HeroSection = () => {
               </p>
               <button
                 onClick={openModal}
-                className="px-8 bg-primary hover:bg-green-800 text-white font-bold py-3 rounded-lg shadow-md transition transform hover:scale-105"
+                className="px-8 bg-primary hover:bg-secondary text-white font-bold py-3 rounded-lg shadow-md transition transform hover:scale-105"
               >
                 Enquire Now
               </button>
@@ -100,10 +97,10 @@ const HeroSection = () => {
           </div>
           <div className="px-6 py-2 border-x-2  border-gray-400">
             <h2 className="text-2xl font-bold text-gray-800 mb-1">
-              ELDECO SKYWALK
+              EKANA BUISNESS CENTER
             </h2>
             <p className="text-sm font-semibold text-gray-700 mb-1">
-              At Eldeco City, IIM ROAD, LUCKNOW
+              Gomti Nagar Extension, Lucknow
             </p>
             <p className="text-xs text-gray-00">
               A 133 Acres Integrated Township
@@ -122,7 +119,7 @@ const HeroSection = () => {
             </p>
             <button
               onClick={openModal}
-              className="px-6 bg-primary hover:bg-green-800 text-white font-bold py-2 rounded shadow-md transition"
+              className="px-6 bg-primary hover:bg-secondary text-white font-bold py-2 rounded shadow-md transition"
             >
               Enquire Now
             </button>

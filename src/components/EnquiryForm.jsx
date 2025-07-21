@@ -99,7 +99,7 @@ export default function EnquiryForm() {
       <div className="mt-4 flex items-center justify-between w-full max-w-sm px-4">
         <button
           onClick={handleOpenModal}
-          className="bg-primary text-white text-sm font-medium py-2 px-6 rounded-lg shadow-md hover:bg-sky-800 transition"
+          className="bg-primary text-white text-sm font-medium py-2 px-6 rounded-lg shadow-md hover:bg-secondary transition"
         >
           Request Call Back
         </button>
@@ -109,7 +109,7 @@ export default function EnquiryForm() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="bg-[#61D72D] p-2 rounded-full shadow-md hover:bg-green-600 transition">
+          <div className="bg-primary p-2 rounded-full shadow-md hover:bg-secondary transition">
             <FaWhatsapp className="w-5 h-5 text-white" />
           </div>
         </a>
@@ -186,7 +186,7 @@ export default function EnquiryForm() {
                 <button
                   type="submit"
                   disabled={isSubmitting || !initialValues.consent}
-                  className="bg-primary text-white font-semibold py-2 px-10 rounded-lg shadow-md hover:bg-sky-800 transition"
+                  className="bg-primary text-white font-semibold py-2 px-10 rounded-lg shadow-md hover:bg-secondary transition"
                 >
                   {isSubmitting ? "Sending..." : "Submit"}
                 </button>

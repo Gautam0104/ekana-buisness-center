@@ -15,9 +15,9 @@ import AboutBuilder from "./AboutBuilder";
 const Home = () => {
   return (
     <>
-      {/* <HeroSection />
+      <HeroSection />
       
-      <AboutSection />
+      {/* <AboutSection />
     
       <EldecoCityFeatures />
       <SkyWalkAmenties />

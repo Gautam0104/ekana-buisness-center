@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         primary: "#06447e",
+        secondary: "#075985",
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],

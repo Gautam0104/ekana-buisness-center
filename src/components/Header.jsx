@@ -82,7 +82,7 @@ export default function Header() {
                   link.download = "Eldeco_SkyWalk_Brochure.pdf";
                   link.click();
                 }}
-                className="bg-primary text-white px-5 py-2 rounded-md font-semibold shadow hover:bg-green-800 transition"
+                className="bg-primary text-white px-5 py-2 rounded-md font-semibold shadow hover:bg-secondary transition"
               >
                 Brochure
               </button>
@@ -120,9 +120,9 @@ export default function Header() {
       >
         <div className="flex items-center border-4 border-primary justify-between p-4">
           <img
-            src="/Skywalk_Logo.webp"
+            src="/ebc/project-logo.webp"
             loading="lazy"
-            alt="Eldeco Skywalk"
+            alt="Ekana Buisness Center"
             className="h-10"
           />
           <button
