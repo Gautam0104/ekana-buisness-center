@@ -11,15 +11,18 @@ import FloorPlans from "./FloorPlans";
 import Gallery from "./Gallery";
 import Location from "./Location";
 import AboutBuilder from "./AboutBuilder";
+import HighlightsSection from "./HighlightsSection";
 
 const Home = () => {
   return (
     <>
       <HeroSection />
       
-      {/* <AboutSection />
-    
-      <EldecoCityFeatures />
+      <AboutSection />
+      <Gallery />
+      <HighlightsSection />
+      <Location />
+      {/* <EldecoCityFeatures />
       <SkyWalkAmenties />
       
       <FlatVarients />

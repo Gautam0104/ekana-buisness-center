@@ -12,15 +12,19 @@ const AboutSection = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-1/2 px-4 md:px-20">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2 md:mb-4">
-            About Eldeco Sky Walk
+             Ekana Business Center
           </h2>
           <p className="text-gray-700 text-xs md:text-sm mb-6 leading-relaxed font-medium">
-            <strong>Eldeco Skywalk</strong> is an exclusive residential offering within the established <strong>Eldeco City township</strong>, centrally positioned in Lucknow. It features four towers of <strong>2</strong> and <strong>3 BR</strong> apartments, thoughtfully designed to welcome natural light and fresh air. What truly sets it apart is the beautifully landscaped <strong>Skywalk atop Towers</strong> Life 1 & 2: an elevated, tranquil space where mornings begin in peace and evenings wind down under a starlit sky.
+            Ekana Business Center is a new commercial project in Ekana Spotz City, located in Gomti Nagar Extension, Lucknow. It offers retail shops, luxury studio apartments and commercial office spaces for business owners, investors and professionals.
+
+            Whether you want to open a shop, invest in a smart studio, or set up your office, Ekana Business Centre has the right options for you. The spaces are designed with modern features, wide corridors and good parking facilities to offer comfort and convenience to both owners and visitors.
+
+            With fast development in this area, the value of property is expected to grow, making this a smart choice for the future. If you are looking for a commercial space in Lucknow, Ekana Business Center is a great opportunity to explore and invest in.
           </p>
 
           <button
             onClick={openModal}
-            className="bg-[#16945F] hover:bg-green-700 text-white px-4 md:px-6 py-2 md:py-3 rounded-md text-xs md:text-sm font-semibold flex items-center gap-2 transition"
+            className="bg-primary hover:bg-secondary text-white px-4 md:px-6 py-2 md:py-3 rounded-md text-xs md:text-sm font-semibold flex items-center gap-2 transition"
           >
             Request Brochure <AiOutlineDownload className="size-6" />
           </button>
@@ -54,8 +58,8 @@ const AboutSection = () => {
 
         <div className="md:w-1/2">
           <img
-            src="/skywalkelevation.webp"
-            alt="Eldeco Skywalk"
+            src="/ebc/about/about.webp"
+            alt="Ekana Business Center"
             loading="lazy"
             className="md:rounded-xl shadow-lg"
           />

@@ -2,27 +2,27 @@ export default function Location() {
   const highlights = [
     {
       number: "01",
-      description: "In close proximity to prominent residential areas",
+      description: "Shaheed Path - 2 mins.",
     },
     {
       number: "02",
-      description: "Offers excellent connectivity to Sitapur Road, Hardoi Road, the Green Corridor, and other prime city locations",
+      description: "Ekana Stadium- 2 mins.",
     },
     {
       number: "03",
-      description: "Located near key conveniences like markets, schools, and transport hubs.",
+      description: "Sultanpur-Lucknow Highway - 5 mins.",
     },
     {
       number: "04",
-      description: "13 minutes drive from city’s big shopping area in Kapurthala",
+      description: "Lucknow Airport- 20 mins.",
     },
     {
       number: "05",
-      description: "35 minutes drive from the airport",
+      description: "Ayodhya-Lucknow Highway - 10 mins.",
     },
     {
       number: "06",
-      description: "25 minutes drive from Railway Station",
+      description: "UP Police Head Office - 2 mins",
     },
   ];
 
@@ -32,7 +32,7 @@ export default function Location() {
         <div className="flex flex-col xl:flex-row gap-10 xl:gap-16 items-center">
           <div className="xl:w-1/2">
             <div className="max-w-lg">
-              <h2 className="text-2xl sm:text-4xl font-bold text-green-800 mb-8 leading-tight">
+              <h2 className="text-2xl sm:text-4xl font-bold text-primary mb-8 leading-tight">
                 Our Location
               </h2>
 
@@ -60,12 +60,17 @@ export default function Location() {
 
           <div className="xl:w-1/2 w-full lg:mt-14 bg-gray-100 rounded-2xl">
             <div className="relative aspect-video w-full h-[420px] rounded-2xl  overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300">
-              <img
-                src="/EldecoSkyWalk.webp"
-                alt="Location View"                
-                className="absolute inset-0 w-full h-full "
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227822.60371562676!2d80.77770084731566!3d26.84859648393558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba8909978be7!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1753186928231!5m2!1sen!2sin" 
+             width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
                 loading="lazy"
-              />
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute inset-0">
+
+              </iframe>
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-white/90 backdrop-blur-sm p-3 sm:p-6 rounded-lg max-w-md border border-white">

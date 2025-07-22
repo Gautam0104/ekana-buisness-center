@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div
         className="relative w-full h-[40vh] lg:h-[80vh] bg-cover bg-center flex items-center justify-start"
         style={{
-          backgroundImage: "url('/ebc/hero/Banner.jpg')",
+          backgroundImage: "url('/ebc/hero/Banner.webp')",
         }}
       >
         <div className="absolute font-Montserrat top-0 right-0 py-4 px-4 md:px-6 flex flex-row items-center gap-4 bg-white/10 backdrop-blur-md rounded-bl-lg border border-white/20">
@@ -27,7 +27,7 @@ const HeroSection = () => {
           <div className="text-[10px] tracking-wider text-black md:text-white leading-snug drop-shadow-md">
             <p className="font-semibold">
               <span className="text-primary-200">RERA NO.:</span>{" "}
-              UPRERAPRJB59279/04/2025 |{" "}
+              UPRERAPRJ546851/07/2025 |{" "}
               <a
                 href="https://www.up-rera.in/"
                 target="_blank"
@@ -40,14 +40,14 @@ const HeroSection = () => {
 
             <p>
               <span className="text-primary-200">Bank Collection Details:</span>{" "}
-              HDFC Bank Ltd
+              PUNJAB NATIONAL BANK
             </p>
             <p>
               <span className="text-primary-200">Bank A/c No.:</span>{" "}
-              999934566661
+              7177002900003019
             </p>
             <p>
-              <span className="text-primary-200">Launch -</span> 11 April 2025
+              <span className="text-primary-200">Launch -</span> 06 June 2025
             </p>
           </div>
         </div>
@@ -59,21 +59,21 @@ const HeroSection = () => {
             </div>
             <div className="px-6 py-4">
               <h2 className="text-2xl font-bold text-gray-800 mb-1 tracking-tight">
-                EKANA BUISNESS CENTER
+                EKANA BUSINESS CENTER
               </h2>
               <p className="text-md font-semibold text-gray-700 mt-1">
                 Gomti Nagar Extension, Lucknow
               </p>
             </div>
             <div className="bg-primary/90 text-white text-xs py-3 w-full mb-4 leading-6 font-medium tracking-wide">
-              <p>Project Area – 3 Acre</p>
-              <p>Project Size – 4 Towers / 195 Units</p>
-              <p>Floors – 14</p>
+              <p>Area – 4 acres</p>
+              <p>Starting – 250 Sq. ft.</p>
+              
             </div>
             <div className="px-6 pb-6 mx-auto min-w-xs">
               <p className="text-sm text-gray-800 font-medium mb-3 leading-snug">
                 Premium 2 & 3 BR
-                <br /> Apartments In Lucknow
+                <br /> Apartments In Ekana Business Center
               </p>
               <button
                 onClick={openModal}
@@ -83,7 +83,7 @@ const HeroSection = () => {
               </button>
 
               <p className="text-xs text-black font-semibold mt-3 tracking-wide">
-                RERA : UPRERAPRJ859279
+                RERA : UPRERAPRJ546851/07/2025
               </p>
             </div>
           </div>
@@ -97,25 +97,22 @@ const HeroSection = () => {
           </div>
           <div className="px-6 py-2 border-x-2  border-gray-400">
             <h2 className="text-2xl font-bold text-gray-800 mb-1">
-              EKANA BUISNESS CENTER
+              EKANA BUSINESS CENTER
             </h2>
             <p className="text-sm font-semibold text-gray-700 mb-1">
               Gomti Nagar Extension, Lucknow
             </p>
-            <p className="text-xs text-gray-00">
-              A 133 Acres Integrated Township
-            </p>
+
           </div>
           <div className="bg-primary text-white font-medium text-xs py-2 w-full mb-4 leading-6">
-            <p>Project Area – 3 Acre</p>
-            <p>Project Size – 4 Towers / 195 Units</p>
-            <p>Floors – 14</p>
+             <p>Area – 4 acres</p>
+              <p>Starting – 250 Sq. ft.</p>
           </div>
 
           <div className="px-6 pb-6 mx-auto min-w-xs">
             <p className="text-sm text-gray-800 font-medium mb-4">
               Premium 2 & 3 BR
-              <br /> Apartments In Lucknow
+              <br /> Apartments In Ekan Business Center
             </p>
             <button
               onClick={openModal}
@@ -150,7 +147,7 @@ const HeroSection = () => {
               </div>
             )}
             <p className="text-xs text-black font-semibold mt-4">
-              RERA : UPRERAPRJ859279
+              RERA : UPRERAPRJ546851/07/2025
             </p>
           </div>
         </div>

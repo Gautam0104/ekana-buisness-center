@@ -92,7 +92,7 @@ export default function EnquiryForm() {
           Organize Site Visit
         </button>
         <span className="text-xs font-normal bg-primary px-4 py-3 w-1/2">
-          <a href="tel:+91 7042412266">+91 7042412266</a>
+          <a href="tel:+91 7042412266">+91 9125671122</a>
         </span>
       </div>
 
